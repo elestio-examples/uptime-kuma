@@ -3,7 +3,6 @@ version: '3.3'
 services:
   uptime-kuma:
     image: louislam/uptime-kuma:${SOFTWARE_VERSION_TAG}
-    container_name: uptime-kuma
     restart: always
     volumes:
       - ./data:/app/data
