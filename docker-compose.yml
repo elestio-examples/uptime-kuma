@@ -4,6 +4,8 @@ services:
   uptime-kuma:
     image: louislam/uptime-kuma:${SOFTWARE_VERSION_TAG}
     restart: always
+    healthcheck:
+      disable: true
     volumes:
       - ./data:/app/data
     ports:
