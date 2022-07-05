@@ -2,6 +2,7 @@
 set -o allexport; source .env; set +o allexport;
 PW_HASH=`htpasswd -nbBC 10 root $ADMIN_PASSWORD | awk -F":" '{print $2}'`
 
+echo "waiting for Uptime-Kuma to be ready ..."
 sleep 10;
 
 sqlite3 ./data/kuma.db "INSERT INTO user (id, username, active) VALUES ('1', '${ADMIN_EMAIL}', '1');"
