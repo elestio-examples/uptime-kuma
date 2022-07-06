@@ -9,7 +9,7 @@ Example CI/CD pipeline showing how to deploy a uptime-kuma to elestio.
 You are able now to connect to the WEB UI:
 
     https://[CI_CD_DOMAIN]
-    Login: [EMAIL]
+    Login: [ADMIN_EMAIL]
     Password: [ADMIN_PASSWORD] (set in env vars)
 
 Quick start:
