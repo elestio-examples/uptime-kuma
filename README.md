@@ -10,7 +10,7 @@ You are able now to connect to the WEB UI:
 
     https://[CI_CD_DOMAIN]
     Login: [EMAIL]
-    Password: [APP_PASSWORD] (set in env vars)
+    Password: [ADMIN_PASSWORD] (set in env vars)
 
 Quick start:
 
