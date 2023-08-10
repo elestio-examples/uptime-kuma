@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  uptime-kuma:
+    image: elestio4test/uptime-kuma:${SOFTWARE_VERSION_TAG}
+    restart: always
+    healthcheck:
+      disable: true
+    volumes:
+      - ./data:/app/data
+    ports:
+      - '172.17.0.1:13001:3001'
