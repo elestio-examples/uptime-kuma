@@ -14,7 +14,7 @@
 
 Deploy a <a target="_blank" href="https://elest.io/open-source/uptime-kuma">fully managed uptime-kuma</a> on <a target="_blank" href="https://elest.io/">elest.io</a> if you want a great solution that allows the creation of simple and easy-to-use monitoring dashboards to monitor the status of servers, applications, and services.
 
-[![deploy](https://github.com/elestio-examples/uptime-kuma/raw/main/deploy-on-elestio.png)](https://dash.elest.io/deploy?source=cicd&social=dockerCompose&url=https://github.com/elestio-examples/uptime-kuma)
+[![deploy](https://github.com/elestio-examples/uptime-kuma/raw/master/deploy-on-elestio.png)](https://dash.elest.io/deploy?source=cicd&social=dockerCompose&url=https://github.com/elestio-examples/uptime-kuma)
 
 # Why use Elestio images?
 
