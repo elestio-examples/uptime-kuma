@@ -1,12 +1,12 @@
-version: '3.3'
+version: "3.3"
 
 services:
   uptime-kuma:
-    image: louislam/uptime-kuma:${SOFTWARE_VERSION_TAG}
+    image: elestio/uptime-kuma:${SOFTWARE_VERSION_TAG}
     restart: always
     healthcheck:
       disable: true
     volumes:
       - ./data:/app/data
     ports:
-      - '172.17.0.1:13001:3001'
+      - "172.17.0.1:13001:3001"
