@@ -10,7 +10,7 @@
 
 [uptime-kuma](https://github.com/louislam/uptime-kuma) is an open source monitoring tool. It enables you to monitor services over HTTP/S, TCP, DNS, and other protocols.
 
-<img src="https://github.com/elestio-examples/uptime-kuma/blob/master/uptime-kuma.png" alt="uptime-kuma" width="800">
+<img src="https://github.com/elestio-examples/uptime-kuma/blob/master/tests/uptime-kuma.png" alt="uptime-kuma" width="800">
 
 Deploy a <a target="_blank" href="https://elest.io/open-source/uptime-kuma">fully managed uptime-kuma</a> on <a target="_blank" href="https://elest.io/">elest.io</a> if you want a great solution that allows the creation of simple and easy-to-use monitoring dashboards to monitor the status of servers, applications, and services.
 
