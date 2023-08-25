@@ -3,6 +3,7 @@ version: "3.3"
 services:
   uptime-kuma:
     image: elestio/uptime-kuma:${SOFTWARE_VERSION_TAG}
+    container_name: uptime-kuma
     restart: always
     healthcheck:
       disable: true
