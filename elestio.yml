@@ -18,6 +18,8 @@ environments:
     value: "random_password"
   - key: "HOST_DOMAIN"
     value: "[DOMAIN]"
+  - key: "UPTIME_KUMA_WS_ORIGIN_CHECK"
+    value: "bypass"
 config:
   runTime: "dockerCompose"
   version: ""
