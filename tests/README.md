@@ -47,7 +47,7 @@ Run the project with the following command
 
     docker-compose up -d
 
-You can access the Web UI at: `http://your-domain:3001`
+You can access the Web UI at: `http://your-domain:13001`
 
 ## Docker-compose
 
@@ -111,6 +111,6 @@ That's it! With these simple steps, you can easily backup and restore your data 
 
 - <a target="_blank" href="https://github.com/louislam/uptime-kuma.git">uptime-kuma Github repository</a>
 
-- <a target="_blank" href="https://uptime.kuma.pet/docs/">uptime-kuma documentation</a>
+- <a target="_blank" href="https://docs.theme-park.dev/themes/uptime-kuma/">uptime-kuma documentation</a>
 
 - <a target="_blank" href="https://github.com/elestio-examples/uptime-kuma">Elestio/uptime-kuma Github repository</a>
