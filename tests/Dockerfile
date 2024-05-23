@@ -15,7 +15,15 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=1
 COPY .npmrc .npmrc
 COPY package.json package.json
 COPY package-lock.json package-lock.json
+
+# Set npm network timeout settings
+RUN npm config set fetch-retries 5 \
+    && npm config set fetch-retry-mintimeout 20000 \
+    && npm config set fetch-retry-maxtimeout 120000
+
+# Install dependencies
 RUN npm ci --omit=dev
+
 COPY . .
 COPY --from=build_healthcheck /app/extra/healthcheck /app/extra/healthcheck
 RUN chmod +x /app/extra/entrypoint.sh
@@ -28,7 +36,6 @@ WORKDIR /app
 
 # Copy app files from build layer
 COPY --from=build /app /app
-
 
 EXPOSE 3001
 VOLUME ["/app/data"]
